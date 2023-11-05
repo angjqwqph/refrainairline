@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+body {
+    font-family: 'EB Garamond', serif;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/016/851/155/non_2x/bright-sky-and-beautiful-clouds-free-photo.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+.head {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    justify-content: left;
+}
+.logo a{
+    color: white;
+}
+.head img {
+    width: 60px;
+    margin-right: 10px;
+    justify-content: left;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    align-items: right;
+    padding: 20px 5px 10px 18px;
+    font-size: xx-large;
+
+}
+
+header nav ul li {
+    position: relative;
+    float: right;
+    padding-left: 210px;
+}
+
+header nav ul li a {
+    padding: 15px;
+    color: white;
+    display: inline-block;
+}
+
+header nav ul li a:hover {
+    background-color: white;
+    color: cornflowerblue;
+}
+
+nav ul li ul {
+    position: absolute;
+    top: 69px;
+    left: 170px;
+    width: 225px;
+    background-color: cornflowerblue;
+    display: none;
+
+}
+
+nav ul li:hover>ul {
+    display: block;
+}
+
+form {
+    background: rgb(87,157,255);
+background: radial-gradient(circle, rgba(87,157,255,0.905374649859944) 3%, rgba(214,234,255,0.14346988795518212) 46%, rgba(255,255,255,0) 98%);
+    padding: 9px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px;
+    margin-left: 130px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 38px;
+    width: 440px;
+
+}
+input[type=text]:focus {
+    background-color: lightblue;
+}
+input {
+    margin: 15px;
+    width: 170px;
+    height: 43px;
+    padding: 15px;
+}
+
+.bb {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    width: 190px;
+    height: 70px;
+    font-size: medium;
+    margin-top: 8px;
+    box-shadow: 0 -3px rgb(75, 125, 217) inset;
+    transition: 0.2s;
+  } 
+  .bb:hover { background: rgb(67, 133, 255); }
+  .bb:active {
+    background: rgb(36, 113, 255);
+    box-shadow: 0 3px rgb(28, 79, 174) inset;}
+
+h3 {
+    display: inline-block;
+    padding: 9px;
+}
+
+.person {
+    padding: 4px;
+    margin: 10px;
+}
+
+.person img {
+    width: 70px;
+    border-radius: 20%;
+}
+img{
+    width: 720px;
+    border-radius: 1%;
+}
+.text {
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    padding: 20px;
+    margin: 50px;
+    font-size: larger;
+    box-shadow: 13px 13px 2px 6px rgba(100, 148, 237, 0.724);
+border-radius: 10px;
+line-height: 1.8;
+}
+
+.color {
+    background-color: rgb(220, 232, 255);
+    padding: 10px;
+    margin: 9px;
+    border: rgb(220, 232, 255);
+    border-radius: 8px;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 1000;
+}
+.im img{
+   width: 90px;
+}
+.mi img{
+    width: 80px;
+}
+.mim img{
+width: 110px;
+}
+
+.social{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.527);
+    font-size: 30px;
+    width: 290px;
+    padding: 30px;
+    text-align: center;
+    right: 100px;
+    top: 150px;
+    display: inline;
+    border-radius: 18%;
+}
+.im:hover{
+    filter: grayscale(1);
+}
+.mim:hover{
+    filter: grayscale(1);
+}
+.mi:hover{
+    filter: grayscale(1);
+}
+.contact{
+    padding: 20px;
+    margin: 10px;
+    font-size: x-large;
+}
+.a{
+position: absolute;
+right: 80px;
+top: 140px;
+}
+.a img{
+    width: 420px;
+    border: 900px;
+}
+.txt{
+    background-color: cornflowerblue;
+    color: white;
+    background: rgb(87,157,255);
+background: linear-gradient(90deg, rgba(87,157,255,1) 0%, rgba(63,157,255,0.08744747899159666) 70%, rgba(255,255,255,0) 98%);
+margin: 50px;
+padding: 40px;
+top: 140px;
+font-size: xx-large;
+border-radius: 19px;
+}
+.txt img{
+    right: 70px;
+    top: 146px;
+    width: 410px;
+    position: absolute;
+    border-radius: 18px;
+}
+.tt img{
+    right: 70px;
+    top: 860px;
+    width: 410px;
+    position: absolute;
+    border-radius: 18px;
+}
+.t img{
+    right: 70px;
+    top: 1300px;
+    width: 410px;
+    position: absolute;
+    border-radius: 18px;
+}
+.we{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 30px;
+    font-size: x-large;
+    line-height: 1.6;
+}
+.history{
+    background-color: white;
+    padding: 70px;
+    font-size: x-large;
+    line-height: 2.2;
+}
+.col{
+    background-color: rgb(224, 235, 255);
+    color: rgb(0, 5, 12);
+
+}
+.hist img{
+    width: 95%;
+    margin: 30px;
+}
+.contain{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(100%, auto);
+    font-size: x-large;
+    background: rgb(195,220,255);
+background: radial-gradient(circle, rgba(195,220,255,1) 10%, rgb(237, 246, 255) 52%, rgba(255,255,255,1) 100%);
+    line-height: 1.7;
+    padding: 50px;
+}
+.dis{
+    padding: 9px;
+    margin: 9px;
+    
+}
+.dis_1{
+grid-column: 1/3;
+grid-row: 1/2;
+}
+hr{
+size: 1.4px;
+}
+.wrap{
+    margin: 30px;
+    width: 98%;
+    margin-top: 70px;
+  }
+  
+  hr{
+    width:initial;
+  }
+  .i img{
+    position: relative;
+    float: right;
+    margin: 8px;
+    width: 400px;
+    border-radius: 10px;
+  }
